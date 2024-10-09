@@ -22,14 +22,17 @@ input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Square)
     // Green
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Green))
+    neopixelStrip.show()
     pause(1000)
     neopixelStrip.setPixelColor(0, neopixel.colors(NeoPixelColors.Black))
     // Yellow
     neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Yellow))
+    neopixelStrip.show()
     pause(500)
     neopixelStrip.setPixelColor(1, neopixel.colors(NeoPixelColors.Black))
     // Red
     neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Red))
+    neopixelStrip.show()
     pause(1000)
     neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
     neopixelStrip.show()
